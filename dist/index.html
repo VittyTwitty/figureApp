@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Custom template</title>
+    <meta name="description" content="">
+
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="styles.css" rel="stylesheet"></head>
+<body>
+
+<header class="header btn_main">
+    <div class="header_add">
+        <i class="header_add--button mdi mdi-plus"></i>
+    </div>
+    <div class="product-head">
+        <div id="form"></div>
+        <div class="clear"></div>
+    </div>
+
+
+
+</header>
+<section class="s-form-modal">
+
+    <div class="s-form-modal_close"><i class="mdi mdi-close-circle-outline"></i></div>
+    <form class="s-form-modal_select-figure" id="main_form">
+        <select class="s-form-modal_select" id="main_select">
+            <option disabled selected>Choose figure</option>
+            <option value="Triangle">Triangle</option>
+            <option value="Rectangle">Rectangle</option>
+            <option value="Circle">Circle</option>
+        </select>
+        <input class="point_x no-active" type="text" maxlength="12" placeholder='Point "x"'>
+        <input class="point_y no-active" type="text" maxlength="12" placeholder='Point "y"'>
+        <input class="width_input no-active" type="text" maxlength="12" placeholder='Figure width'>
+        <input class="height_input no-active" type="text" maxlength="12" placeholder='Figure height'>
+        <input class="radius_input no-active" type="text" maxlength="12" placeholder='Figure radius'>
+        <div class="s-form-modal_go-button no-active disabled"><i class="mdi mdi-plus-box"></i></div>
+    </form>
+
+
+</section>
+
+<section class="table-figure">
+    <div class="table-figure_inner">
+        <div class="table-figure_header">
+            <ul class="table-figure_header--list">
+                <li>Какой-то пункт</li>
+                <li>Type</li>
+                <li>x</li>
+                <li>y</li>
+                <li>w</li>
+                <li>h</li>
+                <li>r</li>
+                <li>P</li>
+                <li>S</li>
+                <li>Remove</li>
+            </ul>
+        </div>
+
+
+    </div>
+</section>
+
+<div class="overlay"></div>
+
+<footer class="footer">
+
+</footer>
+
+<script type="text/javascript" src="scripts/common.js"></script><script type="text/javascript" src="scripts/index.bundle.js"></script><script type="text/javascript" src="scripts/indexTS.bundle.js"></script><script type="text/javascript" src="scripts/search.bundle.js"></script></body>
+</html>
